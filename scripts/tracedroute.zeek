@@ -3,7 +3,7 @@
 ##! number of ICMP Time Exceeded messages for a source-destination pair exceeds
 ##! a threshold.
 
-@load base/frameworks/signatures
+##@load base/frameworks/signatures
 @load-sigs ./detect-low-ttls.sig
 
 redef Signatures::ignored_ids += /traceroute-detector.*/;
