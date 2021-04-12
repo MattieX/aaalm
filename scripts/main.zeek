@@ -3,8 +3,8 @@
 @load policy/protocols/conn/mac-logging
 @load policy/protocols/conn/vlan-logging
 
-@load ether_ipv4
-@load tracedroute
+@load ./ether_ipv4
+@load ./tracedroute
 
 module EtherIPv4;
 
