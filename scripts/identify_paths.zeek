@@ -1,1 +1,1 @@
-@load policy/misc/detect-traceroute/main.bro
+@load policy/misc/detect-traceroute/main.zeek

@@ -2,4 +2,6 @@
 script_dir = scripts
 description = Tag and group devices based on a LAN's structure
 tags = topology, mapping, visualization, traceroute
+script_dir = scripts
+config_files = scripts/config.zeek
 version = 0.2.0
