@@ -4,7 +4,7 @@
 ##! a threshold.
 
 ##@load base/frameworks/signatures
-@load-sigs ./detect-low-ttls.sig
+## @load-sigs ./detect-low-ttls.sig
 
 redef Signatures::ignored_ids += /traceroute-detector.*/;
 
